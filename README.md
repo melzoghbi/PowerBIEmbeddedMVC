@@ -3,10 +3,12 @@ This is an ASP.NET MVC Application that has an integrated Power BI Embedded Repo
 
 What you need is to update 3 keys in the web.config:
 
-   <add key="powerbi:AccessKey" value="s6hs+xGx6jAhDlNWqyTNW7IaSampyxmgvZ4+3fY/ORbHzecQOIVsik+e3WPqN1cK3SsQ/vmBp2Hbucvp7YHNqw==" />
+''' Web.Config Configuration
+    <add key="powerbi:AccessKey" value="s6hs+xGx6jAhDlNWqyTNW7IaSampyxmgvZ4+3fY/ORbHzecQOIVsik+e3WPqN1cK3SsQ/vmBp2Hbucvp7YHNqw==" />
     <add key="powerbi:ApiUrl" value="https://api.powerbi.com" />
     <add key="powerbi:WorkspaceCollection" value="PBIEDemo" />
     <add key="powerbi:WorkspaceId" value="9c155666-7e65-4694-ac71-f80e4898035f" />
+'''
 
 Then, Run the app and you will be able to embed first report you have imported in Power BI workspace collection in Azure.
 
